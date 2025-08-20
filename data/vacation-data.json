@@ -1,0 +1,246 @@
+[
+	{
+		"name": "Paris Vacation",
+		"localLanguages": ["French", "English"],
+		"budget": 4,
+		"vacationType": ["city", "cultural"],
+		"location": {
+			"city": "Paris",
+			"country": "France"
+		}
+	},
+	{
+		"name": "Swedish Vacation",
+		"localLanguages": ["Swedish", "English"],
+		"budget": 5,
+		"vacationType": ["nature", "cultural"],
+		"location": {
+			"city": "Stockholm",
+			"country": "Sweden"
+		}
+	},
+	{
+		"name": "Netherlands Vacation",
+		"localLanguages": ["Dutch", "English"],
+		"budget": 3,
+		"vacationType": ["city", "cultural"],
+		"location": {
+			"city": "Amsterdam",
+			"country": "Netherlands"
+		}
+	},
+	{
+		"name": "Swiz Vacation",
+		"localLanguages": ["German", "French", "Italian", "Romansh", "English"],
+		"budget": 5,
+		"vacationType": ["nature", "adventure", "cultural"],
+		"location": {
+			"city": "Zurich",
+			"country": "Switzerland"
+		}
+	},
+	{
+		"name": "Rio Vacation",
+		"localLanguages": ["Portuguese", "English"],
+		"budget": 2,
+		"vacationType": ["beach", "mountains", "adventure"],
+		"location": {
+			"city": "Rio de Janeiro",
+			"country": "Brazil"
+		}
+	},
+	{
+		"name": "Bali Vacation",
+		"localLanguages": ["balinese", "Sasak", "indonesian", "English"],
+		"budget": 3,
+		"vacationType": ["beach", "mountains", "adventure"],
+		"location": {
+			"city": "Bali",
+			"country": "Indonesia"
+		}
+	},
+	{
+		"name": "Himalaya Vacation",
+		"localLanguages": ["Hindi", "Nepali", "English"],
+		"budget": 4,
+		"vacationType": ["mountains", "adventure", "nature"],
+		"location": {
+			"city": "Kathmandu",
+			"country": "Nepal"
+		}
+	},
+	{
+		"name": "Singapore",
+		"localLanguages": ["English", "Tamil", "Mandarin"],
+		"budget": 1000,
+		"vacationType": ["city"],
+		"location": {
+			"city": " Singapore ",
+			"country": " Singapore "
+		}
+	},
+
+	{
+		"name": "Aruba",
+		"localLanguages": ["Dutch", "English"],
+		"budget": 4,
+		"vacationType": "beach",
+		"location": {
+			"city": "Palm Beach",
+			"country": "Aruba"
+		}
+	},
+	{
+		"name": "Dubai",
+		"localLanguages": ["Arabic", "English", "Hindi"],
+		"budget": 100,
+		"vacationType": "city",
+		"location": {
+			"city": "Dubai",
+			"country": "UAE"
+		}
+	},
+	{
+		"name": "Miami",
+		"localLanguages": ["English", "Spanish"],
+		"budget": 1000,
+		"vacationType": ["beach"],
+		"location": {
+			"city": "Miami",
+			"country": "USA "
+		}
+	},
+	{
+		"name": "Rocky Mountian",
+		"localLanguages": ["English"],
+		"budget": 4,
+		"vacationType": ["mountian", "hiking", "ski"],
+		"location": {
+			"city": "Aspen",
+			"country": "United States of America"
+		}
+	},
+	{
+		"name": "Mediterranean",
+		"localLanguages": ["Greek"],
+		"budget": 4,
+		"vacationType": ["hiking", "beach", "swimining", "history"],
+		"location": {
+			"city": "Athens",
+			"country": "Greece"
+		}
+	},
+	{
+		"name": "Desert",
+		"localLanguages": ["English", "Arabic"],
+		"budget": 5,
+		"vacationType": ["safari", "atv", "hot air balloon"],
+		"location": {
+			"city": "Dubai",
+			"country": "UAE"
+		}
+	},
+	{
+		"name": "barcelona_spain",
+		"localLanguages": ["es", "ca"],
+		"budget": 2,
+		"vacationType": ["city"],
+		"location": {
+			"city": "Barcelona",
+			"country": "Spain"
+		}
+	},
+	{
+		"name": "cusco_peru",
+		"localLanguages": ["es", "en"],
+		"budget": 3,
+		"vacationType": ["mountain"],
+		"location": {
+			"city": "Cusco",
+			"country": "Peru"
+		}
+	},
+	{
+		"name": "bora_bora_french_polynesia",
+		"localLanguages": ["fr", "en"],
+		"budget": 5,
+		"vacationType": ["beach"],
+		"location": {
+			"city": "Bora Bora",
+			"country": "French Polynesia"
+		}
+	},
+	{
+		"name": "Tuscany",
+		"localLanguages": ["Italian"],
+		"budget": 4,
+		"vacationType": ["countryside", "wine_tasting"],
+		"location": {
+			"city": "Florence",
+			"country": "Italy"
+		}
+	},
+	{
+		"name": "Kyoto",
+		"localLanguages": ["Japanese"],
+		"budget": 3,
+		"vacationType": ["cultural", "historical"],
+		"location": {
+			"city": "Kyoto",
+			"country": "Japan"
+		}
+	},
+	{
+		"name": "Banff National Park",
+		"localLanguages": ["English"],
+		"budget": 3,
+		"vacationType": ["mountain", "adventure"],
+		"location": {
+			"city": "Banff",
+			"country": "Canada"
+		}
+	},
+	{
+		"name": "Europe",
+		"localLanguages": ["Italian", "English"],
+		"budget": 3,
+		"vacationType": ["City"],
+		"location": {
+			"city": "Rome",
+			"country": "Italy"
+		}
+	},
+
+	{
+		"name": "Mountain Retreat",
+		"localLanguages": ["English", "French"],
+		"budget": 4,
+		"vacationType": ["mountain"],
+		"location": {
+			"city": "Chamonix",
+			"country": "France"
+		}
+	},
+
+	{
+		"name": "Disney",
+		"localLanguages": ["English"],
+		"budget": 5,
+		"vacationType": ["Amusement"],
+		"location": {
+			"city": "Orlando",
+			"country": "US"
+		}
+	},
+
+	{
+		"name": "North London",
+		"localLanguages": ["English"],
+		"budget": 5,
+		"vacationType": ["Tower of London", "Arsenal Emirates Stadium", "Buckingham"],
+		"location": {
+			"city": "London",
+			"country": "England"
+		}
+	}
+]
