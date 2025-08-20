@@ -8,7 +8,8 @@
     "format:write": "prettier . --write",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cross-env NODE_OPTIONS='--experimental-vm-modules' jest",
+    "test:watch": "cross-env NODE_OPTIONS='--experimental-vm-modules' jest --watch"
   },
   "keywords": [],
   "author": "John Paxton <pax@speedingplanet.com>",
