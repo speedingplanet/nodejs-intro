@@ -8,6 +8,9 @@
     "format:write": "prettier . --write",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
+    "server:start": "cross-env DEBUG=express node server/run-server.js",
+    "server:watch": "cross-env DEBUG=express nodemon server/run-server.js",
+    "rest-server": "json-server --port 8000 rest-server-data.json",
     "test": "cross-env NODE_OPTIONS='--experimental-vm-modules' jest",
     "test:watch": "cross-env NODE_OPTIONS='--experimental-vm-modules' jest --watch"
   },
@@ -25,12 +28,18 @@
     "cross-env": "^10.0.0",
     "eslint": "^9.33.0",
     "jest": "^30.0.5",
+    "json-server": "^0.17.4",
+    "nodemon": "^3.1.10",
     "prettier": "^3.6.2",
     "typescript": "^5.9.2",
     "typescript-eslint": "^8.40.0"
   },
-    "dependencies": {
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "debug": "^4.4.1",
+    "express": "^5.1.0",
     "fs-extra": "^11.3.1",
+    "morgan": "^1.10.1",
     "rimraf": "^6.0.1"
   }
 }
