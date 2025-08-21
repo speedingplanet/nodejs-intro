@@ -3,6 +3,7 @@ import path from 'node:path';
 import cookieParser from 'cookie-parser';
 import logger from 'morgan';
 import vacationSpotRouter from './vacation-spots-router.js';
+import vsDatabaseRouter from './vs-db-router.js';
 
 let app = express();
 
@@ -19,4 +20,5 @@ app.get('/', (req, res) => {
 });
 
 app.use('/vacation-spots', vacationSpotRouter);
+app.use('/vs-db', vsDatabaseRouter);
 export { app };
