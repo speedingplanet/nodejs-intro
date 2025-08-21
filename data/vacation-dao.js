@@ -44,6 +44,10 @@ export function getAllSpots() {
 	return vacationSpots;
 }
 
+/**
+ * @param {number} id
+ * @returns {VacationSpot}
+ */
 export function getSpotById(id) {
 	let foundSpotIndex = checkId(id);
 	return vacationSpots[foundSpotIndex];
@@ -60,7 +64,25 @@ export function getSpotCount() {
  */
 export function addSpot(tmpSpot) {
 	let nextId = getNextId();
+
+	// let insertSpot = {name: 'tmp spot', budget: 5, id: nextId}
 	let insertSpot = { ...tmpSpot, id: nextId };
+
+	/*
+	// Older
+	let insertSpotAssigned = Object.assign({}, tmpSpot, {id: nextId});
+
+	// Even Older
+	let insertSpotLoop = {}
+	for (let prop in tmpSpot) {
+		insertSpotLoop[prop] = tmpSpot[prop]
+	}
+	insertSpotLoop = nextId;
+
+	// let insertSpot = {tmpSpot: tmpSpot, id: nextId}
+	// let insertSpot = { tmpSpot, id: nextId };
+	*/
+
 	vacationSpots.push(insertSpot);
 	return insertSpot;
 }

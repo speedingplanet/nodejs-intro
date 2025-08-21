@@ -1,3 +1,4 @@
+// @ts-check
 import { beforeEach, describe, expect, test } from '@jest/globals';
 import originalVacationSpots from './vacation-data.json' with { type: 'json' };
 import { getSpotCount, loadData } from './vacation-dao.js';
@@ -28,6 +29,7 @@ describe('Vacation DAO', () => {
 		};
 
 		vacationSpots = originalVacationSpots.slice(0, 5);
+
 		loadData(vacationSpots);
 	});
 
