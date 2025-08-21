@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 const vacationType = {
 	CITY: 'city',
 	BEACH: 'beach',
@@ -12,63 +13,278 @@ const vacationType = {
 
 let data = [
 	{
+		id: 100,
+		name: 'Paris Vacation',
+		localLanguages: ['French', 'English'],
+		budget: 4,
+		vacationType: ['city', 'cultural'],
+		location: {
+			city: 'Paris',
+			country: 'France',
+		},
+	},
+	{
+		id: 101,
+		name: 'Swedish Vacation',
+		localLanguages: ['Swedish', 'English'],
+		budget: 5,
+		vacationType: ['nature', 'cultural'],
+		location: {
+			city: 'Stockholm',
+			country: 'Sweden',
+		},
+	},
+	{
+		id: 102,
+		name: 'Netherlands Vacation',
+		localLanguages: ['Dutch', 'English'],
+		budget: 3,
+		vacationType: ['city', 'cultural'],
+		location: {
+			city: 'Amsterdam',
+			country: 'Netherlands',
+		},
+	},
+	{
+		id: 103,
+		name: 'Swiz Vacation',
+		localLanguages: ['German', 'French', 'Italian', 'Romansh', 'English'],
+		budget: 5,
+		vacationType: ['nature', 'adventure', 'cultural'],
+		location: {
+			city: 'Zurich',
+			country: 'Switzerland',
+		},
+	},
+	{
+		id: 104,
+		name: 'Rio Vacation',
+		localLanguages: ['Portuguese', 'English'],
+		budget: 2,
+		vacationType: ['beach', 'mountains', 'adventure'],
+		location: {
+			city: 'Rio de Janeiro',
+			country: 'Brazil',
+		},
+	},
+	{
+		id: 105,
+		name: 'Bali Vacation',
+		localLanguages: ['balinese', 'Sasak', 'indonesian', 'English'],
+		budget: 3,
+		vacationType: ['beach', 'mountains', 'adventure'],
+		location: {
+			city: 'Bali',
+			country: 'Indonesia',
+		},
+	},
+	{
+		id: 106,
+		name: 'Himalaya Vacation',
+		localLanguages: ['Hindi', 'Nepali', 'English'],
+		budget: 4,
+		vacationType: ['mountains', 'adventure', 'nature'],
+		location: {
+			city: 'Kathmandu',
+			country: 'Nepal',
+		},
+	},
+	{
+		id: 107,
+		name: 'Singapore',
+		localLanguages: ['English', 'Tamil', 'Mandarin'],
+		budget: 1000,
+		vacationType: ['city'],
+		location: {
+			city: ' Singapore ',
+			country: ' Singapore ',
+		},
+	},
+
+	{
+		id: 108,
+		name: 'Aruba',
+		localLanguages: ['Dutch', 'English'],
+		budget: 4,
+		vacationType: ['beach'],
+		location: {
+			city: 'Palm Beach',
+			country: 'Aruba',
+		},
+	},
+	{
+		id: 109,
+		name: 'Dubai',
+		localLanguages: ['Arabic', 'English', 'Hindi'],
+		budget: 100,
+		vacationType: ['city'],
+		location: {
+			city: 'Dubai',
+			country: 'UAE',
+		},
+	},
+	{
+		id: 110,
+		name: 'Miami',
+		localLanguages: ['English', 'Spanish'],
+		budget: 1000,
+		vacationType: ['beach'],
+		location: {
+			city: 'Miami',
+			country: 'USA ',
+		},
+	},
+	{
+		id: 111,
+		name: 'Rocky Mountian',
+		localLanguages: ['English'],
+		budget: 4,
+		vacationType: ['mountian', 'hiking', 'ski'],
+		location: {
+			city: 'Aspen',
+			country: 'United States of America',
+		},
+	},
+	{
+		id: 112,
+		name: 'Mediterranean',
+		localLanguages: ['Greek'],
+		budget: 4,
+		vacationType: ['hiking', 'beach', 'swimining', 'history'],
+		location: {
+			city: 'Athens',
+			country: 'Greece',
+		},
+	},
+	{
+		id: 113,
+		name: 'Desert',
+		localLanguages: ['English', 'Arabic'],
+		budget: 5,
+		vacationType: ['safari', 'atv', 'hot air balloon'],
+		location: {
+			city: 'Dubai',
+			country: 'UAE',
+		},
+	},
+	{
+		id: 114,
 		name: 'barcelona_spain',
 		localLanguages: ['es', 'ca'],
 		budget: 2,
-		vacationType: [vacationType.CITY],
+		vacationType: ['city'],
 		location: {
 			city: 'Barcelona',
 			country: 'Spain',
 		},
 	},
 	{
+		id: 115,
 		name: 'cusco_peru',
 		localLanguages: ['es', 'en'],
 		budget: 3,
-		vacationType: [vacationType.MOUNTAIN],
+		vacationType: ['mountain'],
 		location: {
 			city: 'Cusco',
 			country: 'Peru',
 		},
 	},
 	{
+		id: 116,
 		name: 'bora_bora_french_polynesia',
 		localLanguages: ['fr', 'en'],
 		budget: 5,
-		vacationType: [vacationType.BEACH],
+		vacationType: ['beach'],
 		location: {
 			city: 'Bora Bora',
 			country: 'French Polynesia',
 		},
 	},
 	{
+		id: 117,
 		name: 'Tuscany',
 		localLanguages: ['Italian'],
 		budget: 4,
-		vacationType: [vacationType.COUNTRYSIDE, vacationType.WINE_TASTING],
+		vacationType: ['countryside', 'wine_tasting'],
 		location: {
 			city: 'Florence',
 			country: 'Italy',
 		},
 	},
 	{
+		id: 118,
 		name: 'Kyoto',
 		localLanguages: ['Japanese'],
 		budget: 3,
-		vacationType: [vacationType.CULTURAL, vacationType.HISTORICAL],
+		vacationType: ['cultural', 'historical'],
 		location: {
 			city: 'Kyoto',
 			country: 'Japan',
 		},
 	},
 	{
+		id: 119,
 		name: 'Banff National Park',
 		localLanguages: ['English'],
 		budget: 3,
-		vacationType: [vacationType.MOUNTAIN, vacationType.ADVENTURE],
+		vacationType: ['mountain', 'adventure'],
 		location: {
 			city: 'Banff',
 			country: 'Canada',
 		},
 	},
+	{
+		id: 120,
+		name: 'Europe',
+		localLanguages: ['Italian', 'English'],
+		budget: 3,
+		vacationType: ['City'],
+		location: {
+			city: 'Rome',
+			country: 'Italy',
+		},
+	},
+
+	{
+		id: 121,
+		name: 'Mountain Retreat',
+		localLanguages: ['English', 'French'],
+		budget: 4,
+		vacationType: ['mountain'],
+		location: {
+			city: 'Chamonix',
+			country: 'France',
+		},
+	},
+
+	{
+		id: 122,
+		name: 'Disney',
+		localLanguages: ['English'],
+		budget: 5,
+		vacationType: ['Amusement'],
+		location: {
+			city: 'Orlando',
+			country: 'US',
+		},
+	},
+
+	{
+		id: 123,
+		name: 'North London',
+		localLanguages: ['English'],
+		budget: 5,
+		vacationType: ['Tower of London', 'Arsenal Emirates Stadium', 'Buckingham'],
+		location: {
+			city: 'London',
+			country: 'England',
+		},
+	},
 ];
+
+/**
+ * @returns {import("./vacation-dao").VacationSpot[]}
+ */
+export function getData() {
+	return data;
+}
